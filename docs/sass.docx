@@ -1,0 +1,21 @@
+Task Description
+
+You have downloaded the web page with completed CSS style-sheet. The task is to create the SASS file that will generate the new version of main.css and main.css.map. The web page shouldn't be altered and you need to use the following SASS features:
+•	breaking down the style-sheet (main.scss) to the 3 partials:
+o	variables.scss (for color codes)
+o	mixins.scss (for media queries)
+o	queries.scss
+•	nesting (to resemble the HTML structure)
+•	Use SASS parent selector "&"
+•	create mixin for media queries and use @content
+•	Use @include with your @mixin s. 
+
+Things to Watch 
+
+•	Make sure that you replicate all the changes in font-size, color, background-color, font-weight, icon sizes, padding, floats, and alignment.
+•	Use the original CSS file from the "css-backup" folder as your reference to get the specifics for all the changes that you see. Make sure you don't overwrite the css-backup /main.css file. Use SASS to overwrite the css/main.css file.
+
+
+Points
+
+Maximum score: 15 points or 100%.
