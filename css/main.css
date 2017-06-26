@@ -56,8 +56,7 @@ a {
       text-shadow: 0 1px 1px #333; }
   .first ul li:nth-of-type(6) a {
     border-bottom: none; }
-
-h1 {
+.first h1 {
   font-family: 'Damion';
   margin: 1.5rem 2rem 1.5rem 0; }
 
@@ -81,14 +80,13 @@ h1 {
       background-color: #4169E1;
       border: 1px solid #4169E1; }
   .bg-people h1 span:first-of-type {
-    /* accessing '+' in <h1> */
     font-family: Impact, sans-serif;
     vertical-align: middle;
     font-size: 4rem;
     color: #FFD700; }
-    .bg-people h1 span:first-of-type h1 span:last-of-type {
-      font-style: italic;
-      text-transform: lowercase; }
+  .bg-people h1 span:last-of-type {
+    font-style: italic;
+    text-transform: lowercase; }
 
 /* -- THIRD DIV -- */
 .bg-gold {
@@ -121,12 +119,11 @@ h1 {
     display: block;
     clear: both; }
   .second h1 span:first-of-type {
-    /* accessing '+' in <h1> */
     font-family: Impact, sans-serif;
     vertical-align: middle;
     font-size: 4rem; }
-    .second h1 span:first-of-type:last-of-type {
-      font-style: italic; }
+  .second h1 span:last-of-type {
+    font-style: italic; }
   .second ul li {
     float: left;
     width: 50%;
@@ -152,13 +149,12 @@ h1 {
   .bg-black h1 {
     text-transform: uppercase; }
     .bg-black h1 span:first-of-type {
-      /* accessing '+' in <h1> */
       font-family: Impact, sans-serif;
       vertical-align: middle;
       font-size: 4rem; }
-      .bg-black h1 span:first-of-type:last-of-type {
-        font-style: italic;
-        text-transform: lowercase; }
+    .bg-black h1 span:last-of-type {
+      font-style: italic;
+      text-transform: lowercase; }
   .bg-black .container {
     padding: 0;
     margin: 0 0 1rem 0; }
